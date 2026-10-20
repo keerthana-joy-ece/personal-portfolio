@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Keerthana Joy</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="subpage contact-page">
+
+    <nav class="site-navbar" aria-label="Main navigation">
+        <a href="index.html" class="site-brand">Keerthana Joy</a>
+        <div class="site-nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html" class="active" aria-current="page">Contact</a>
+        </div>
+    </nav>
+
+    <main class="contact-section">
+        <div class="contact-heading">
+            <span>LET'S CONNECT</span>
+            <h1>Get in Touch</h1>
+            <p>
+                Have an opportunity or want to work together?
+                I'd love to hear from you.
+            </p>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>
+                    Feel free to reach out to me for job opportunities,
+                    collaborations, or professional connections.
+                </p>
+
+                <div class="contact-item">
+                    <i class="bi bi-envelope-fill"></i>
+                    <div>
+                        <h3>Email Me</h3>
+                        <a href="mailto:keerthanajoyece11@gmail.com">
+                            keerthanajoyece11@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                        <h3>Call Me</h3>
+                        <a href="tel:+918667348814">
+                            +91 86673 48814
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Tamil Nadu, India</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form"
+                  action="mailto:keerthanajoyece11@gmail.com"
+                  method="post" enctype="text/plain">
+
+                <h2>Send Me a Message</h2>
+                <p class="contact-form-note">
+                    Your email app will open with your message ready to send.
+                </p>
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="Name"
+                       placeholder="Enter your name" autocomplete="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="Email"
+                       placeholder="Enter your email" autocomplete="email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="Subject"
+                       placeholder="Enter the subject" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="Message" rows="5"
+                          placeholder="Write your message here..."
+                          required></textarea>
+
+                <button type="submit">
+                    <i class="bi bi-send-fill"></i>
+                    Send Message
+                </button>
+            </form>
+
+        </div>
+    </main>
+
+    <footer class="contact-footer">
+        <p>© 2026 Keerthana Joy. Made with care ♡</p>
+    </footer>
+
+</body>
+</html>
